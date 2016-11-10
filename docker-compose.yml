@@ -1,0 +1,10 @@
+version: '2'
+services:
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: event-sourcing-password
+      POSTGRES_USER: event-sourcing-app
+      POSTGRES_DB: event-sourcing

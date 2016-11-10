@@ -1,0 +1,4 @@
+POST       /posts           com.example.controllers.PostsController.create
+GET        /posts/:id       com.example.controllers.PostsController.read(id: java.util.UUID)
+PUT        /posts/:id       com.example.controllers.PostsController.update(id: java.util.UUID)
+DELETE     /posts/:id       com.example.controllers.PostsController.delete(id: java.util.UUID)

@@ -1,0 +1,3 @@
+package com.example.exceptions
+
+class NotFoundException extends RuntimeException
